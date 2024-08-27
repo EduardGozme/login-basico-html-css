@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main class="container__main">
+        <div class="container__botones__ingreso">
+            <button class="boton__registro">Sign up</button>
+            <button class="boton__ingreso">Log in</button>
+        </div>
+        <h1>Sign up</h1>
+
+        <button class="container__adicional__opcion">
+            <img src="./assets/facebook.png" alt="Icono de Facebook">
+            Sign up with Facebook
+        </button>
+        <button class="container__adicional__opcion" id="container__boton__espacio">
+            <img src="./assets/google.png" alt="Icono de Google">
+            Sign up with Google
+        </button>
+        <p>OR</p>
+        <form action="" class="container__formulario">
+            <div class="container__nombre">
+                <label for="name">First name</label>
+                <input required class="input__ingreso" type="text" id="name" name="name">
+            </div>
+            <div class="container__segundo__nombre">
+                <label for="last__name">Last name</label>
+                <input required class="input__ingreso" type="text" name="last__name" id="last__name">
+            </div>
+            <div class="container__email">
+                <label for="email">Email address</label>
+                <input required type="email" name="email" id="email">
+            </div>
+            <button class="boton__ingreso__form">Sign up</button>
+        </form>
+    </main>
+</body>
+</html>
